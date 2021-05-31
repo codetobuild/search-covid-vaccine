@@ -276,6 +276,7 @@ function handleCards( vaccinesData){
     {  age_18.innerText = `Age 18+ ( Total : ${junior_card.children.length - 1} )`;
       junior_blank_card.classList.add('blank_visiblity');
     }else{
+      age_18.innerText = `Age 18+`;
       junior_blank_card.classList.remove('blank_visiblity');
     }
   
@@ -284,6 +285,7 @@ function handleCards( vaccinesData){
       age_45.innerText = `Age 45+ ( Total : ${senior_card.children.length - 1} )`;
       senior_blank_card.classList.add('blank_visiblity');
     }else{
+      age_45.innerText = `Age 45+`;
       senior_blank_card.classList.remove('blank_visiblity');
     }
 
